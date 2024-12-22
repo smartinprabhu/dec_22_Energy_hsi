@@ -1,0 +1,59 @@
+.react-flow {
+  height: 94%;
+}
+.flow-in-box-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+  font-size: 18px;
+}
+.blinking-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: blink-animation 3s infinite;
+}
+
+.blinking-dot.green {
+  background-color: green;
+}
+
+.blinking-dot.red {
+  background-color: red;
+}
+.blinking-dot.gray {
+  background-color: lightgrey;
+}
+
+
+@keyframes blink-animation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.card-header-box-responsive1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #2a292c 0% 0% no-repeat padding-box; */
+  /* background-color: green; */
+  background: #083890 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+  height: 5vh;
+}
+.header-box-title-responsive{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,112 @@
+.card-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #2a292c 0% 0% no-repeat padding-box; */
+  /* background-color: green; */
+  background: #083890 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+  height: 35px;
+}
+
+.card-header-box-expand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #2a292c 0% 0% no-repeat padding-box; */
+  /* background-color: green; */
+  background: #083890 0% 0% no-repeat padding-box;
+  padding: 20px;
+  border-radius: 15px 15px 0px 0px;
+  height: 80px;
+}
+
+.card-header-inner-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-box-title {
+  font: normal normal normal 14px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 0;
+  font-weight: 300 !important;
+}
+
+.header-box-title-expand {
+  font: normal normal normal 30px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 0;
+  font-weight: 500 !important;
+}
+
+@media screen and (min-width: 1380px) {
+  .header-box-title {
+    font: normal normal normal 18px Mulish;
+  }
+}
+
+
+.card-header-box-responsive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #2a292c 0% 0% no-repeat padding-box; */
+  /* background-color: green; */
+  background: #083890 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+  height: 7vh;
+}
+
+.card-header-box-responsive-alarms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #2a292c 0% 0% no-repeat padding-box; */
+  /* background-color: green; */
+  background: #083890 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+  height: 7vh;
+}
+
+.card-header-inner-box-responsive {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-header-inner-box-responsive-alarms {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-box-title-responsive {
+  font-family: 'Mulish';
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 0;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+}
+
+.header-box-title-responsive-alarms {
+  font-family: 'Mulish';
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 0;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+}

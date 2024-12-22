@@ -1,0 +1,477 @@
+/* EnergyAnalytics.css */
+
+.display {
+  display: contents;
+}
+
+.font {
+  font-size: large !important;
+}
+
+.responsive-1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  padding: 10px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plot-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* width: 98.2%; */
+  border-radius: 5px;
+  padding: 0px;
+  background-color: #2e2e2e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* margin-left: 13px; */
+}
+.light-mode1 .plot-container {
+  background-color: #EAE7E7;
+}
+.light-mode .plot-container {
+  background-color: #fffefe;
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* width: 98.2%; */
+  border: 1px solid #fffefe;
+  border-radius: 5px;
+  padding: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 13px;
+}
+.plot-container1 {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* height: 100%; */
+  width: 98.4%;
+  border-radius: 5px;
+  padding: 0px;
+  background-color: #2e2e2e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 13px;
+}
+
+
+.carbon1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 0px;
+  background-color: #2e2e2e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.light-mode.carbon1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 0px;
+  background-color: white;
+}
+
+.plot1 {
+  margin-top: -14px;
+}
+
+.plot-box {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* Ensure plot background is transparent */
+}
+.size {
+  font-size: 1.4rem !important;
+}
+.box-1 {
+  width: 16.2%;
+  border: 1px solid #2e2e2e;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #2e2e2e;
+  box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+  margin-bottom: 16px;
+}
+.light-mode .box-1 {
+  background-color: #ffffff; /* Dark background */
+  color: #ffffff; /* White text color */
+  border: none;
+}
+.light-mode .chart-title-responsive {
+  color: black; /* White text color in dark mode */
+}
+.dark-mode .chart-title-responsive {
+  color: white !important; /* White text color in dark mode */
+}
+
+.box-2 {
+  width: 19.6%;
+  height: 10%;
+  border: 1px solid #2e2e2e;
+  border-radius: 5px;
+  background-color: #2e2e2e;
+  box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+  margin-bottom: 13px;
+}
+.marg {
+  margin-bottom: 7px;
+}
+.marg1 {
+  margin-top: -8px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+/* Media Queries */
+@media (max-width: 1200px) {
+  .box-1 {
+    width: 48%;
+  }
+  .plot-container {
+    padding: 0px;
+    margin-left: 14px;
+    width: 97.3%;
+  }
+}
+
+@media (max-width: 992px) {
+  .box-1 {
+    width: 44%;
+  }
+  .responsive-1 {
+    gap: 5px;
+    margin-top: 20px !important;
+    margin-left: -10px;
+  }
+  .plot-container {
+    margin-left: 0;
+    padding: 0px;
+    margin-left: 5px;
+    width: 95.6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-1 {
+    width: 80%;
+  }
+
+  .responsive-1 {
+    gap: 10px;
+  }
+  .plot-container {
+    margin-left: 0;
+    padding: 0px;
+    margin-left: 4px;
+    width: 96.3%;
+  }
+}
+
+@media (max-width: 576px) {
+  .box-1 {
+    width: 49.4%;
+  }
+  .box-2 {
+    width: 49.4%;
+  }
+
+  .font {
+    font-size: 15px !important;
+    color: rgb(249, 249, 249) !important;
+  }
+
+  .responsive-1 {
+    gap: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .size {
+    font-size: 18px !important;
+  }
+  .plot-container {
+    margin-left: 0;
+    padding: 0px;
+    margin-left: 5px !important;
+    width: 96.3%;
+  }
+  .carbon1 {
+    width: 96%;
+    margin-left: 5px;
+  }
+  .flex-content {
+    padding: 7px !important;
+  }
+  .plot-container1 {
+    margin-left: 0;
+    padding: 0px;
+    margin-left: 5px !important;
+    width: 97%;
+  }
+  .card-header-middle-text-responsive {
+    font-size: 11px !important;
+    margin-left: 10px !important;
+  }
+}
+
+/* @media (orientation: landscape) {
+  .box-1 {
+    width: 30%;
+  }
+
+  .font {
+    font-size: 15px !important;
+  }
+
+  .size {
+    font-size: 1.3rem !important;
+  }
+
+  .responsive-1 {
+    gap: 10px;
+  }
+  .plot-container {
+    margin-left: 0 !important; 
+    padding: 0px !important;
+    margin-left: 12px !important;
+    width: 96.3%;
+  }
+}
+
+
+@media (orientation: portrait) {
+
+  .font {
+    font-size: 14px !important;
+  }
+
+  .size {
+    font-size: 1.1rem !important;
+  }
+
+  .responsive-1 {
+    gap: 5px;
+  }
+  
+
+} */
+.subKey{
+  display:flex;
+  gap: 25px;
+  justify-content: space-between;
+  font-family: "Mulish";
+  margin-top: -40px;
+
+}
+.energybox{
+  width: 24.3%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2e2e2e;
+    box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.p1{
+  display: flex;
+  align-items: flex-start;
+  font-size: 17px;
+}
+.subtit{
+  letter-spacing: 0.0075em;
+    color: #ff8200;
+    line-height: 1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: Mulish;
+    margin-top: 15px;
+}
+.combined-subkey{
+  margin-top: -20px;
+}
+.titdark-mode{
+  font-size: 20px;
+    margin-top: 10px;
+}
+.p2{
+  font-size: 17px;
+}
+.separate-subkey{
+margin-top: 24px;
+}
+.parent-container{
+display: flex;
+gap: 22px;
+margin-left: 40px;
+flex-direction: column;
+}
+.back{
+  background-color:#DBDBDB ;
+  padding: 3px;
+  border-radius: 5px;
+  line-height: 0.7;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 10px;
+  font-family: Mulish !important;
+
+}
+.back1{
+  background-color:#DBDBDB ;
+  padding: 3px;
+  border-radius: 5px;
+  line-height: 0.7;
+  font-size: 1rem !important;
+  font-weight: 700;
+  margin-top: 1px;
+  font-family: Mulish !important;
+}
+
+.unit {
+  font-size: 0.8em; /* Adjust the size as needed */
+}
+.data-image {
+  width: 80px; /* Adjust size as needed */
+  height: 40px;
+  /* background-color: #656262;
+  padding: 5px;
+  border-radius: 5px; */
+  margin-top: 15px;
+}
+.im{
+  width: 80px; /* Adjust size as needed */
+  height: 35px;
+}
+.par{
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 40px;
+      margin-left: 40px;
+  
+}
+.imgg{
+  background-color: #656262;
+  height: 62%;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+.card-header-dropdown{
+  display: flex;
+  align-items: center;
+  font-family: Mulish !important;
+}
+.dailoge{
+  background-color:#D9D9D9 ;
+  color: black;
+  font-family: Mulish !important;
+}
+.dailoge1{
+  background-color: #FFFFFF;
+  color: black;
+  font-size: medium;
+  font-family: Mulish !important;
+}
+.lighteng.energybox{
+  width: 24.3%;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #FFFEFE !important;
+  box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.titlight-mode{
+  font-size: 20px;
+    margin-top: 10px;
+}
+.tog{
+  font-size: medium;
+    font-family: 'mulish';
+    display: flex;
+    font-size: 1rem !important;
+    color: white !important;
+}
+.tog1{
+    font-family: 'mulish';
+    display: flex;
+    font-size: 1.2rem !important;
+    color: white !important;
+}
+.energybox.fourth-card {
+  width: 24.3%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2e2e2e;
+    box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.par1{
+  display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+}
+.tit1dark-mode{
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 40px;
+
+}
+.green-text {
+  color: green;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+.imgglight-mode{
+  background-color: #EAE7E7;
+  height: 62%;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+.tit1light-mode{
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 40px; 
+}

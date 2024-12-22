@@ -1,0 +1,11 @@
+pandas
+plotly
+jsonlib  
+
+prophet
+scikit-learn
+numpy
+duckdb
+pytz
+Flask
+flask-cors

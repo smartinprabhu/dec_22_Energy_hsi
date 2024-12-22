@@ -1,0 +1,6 @@
+pyautogen
+flask
+duckdb
+flask_cors
+pandas 
+boto3

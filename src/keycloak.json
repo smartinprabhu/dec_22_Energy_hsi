@@ -1,0 +1,8 @@
+{
+  "realm": "washroom",
+  "url": "http://20.51.245.39:8080/auth/",
+  "ssl-required": "none",
+  "resource": "helix-admin",
+  "public-client": true,
+  "confidential-port": 0
+}

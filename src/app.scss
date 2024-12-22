@@ -1,0 +1,973 @@
+.responsive-navbar {
+    overflow: auto;
+    background-color: #2b2a2d;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* background-color: #333; */
+    /* color: #fff; */
+    /* padding: 10px 20px; */
+    transition: top 0.3s;
+    animation: fadeIn 0.3s;
+    height: 60px;
+  }
+  .responsive-navbar-light.responsive-navbar{
+    background-color: #ffffff;
+  }
+  .responsive-navbar-light.responsive-navbar a{
+    color: black  !important;
+  }
+  .responsive-navbar-light.responsive-navbar  a:hover{
+    color: black  !important;
+  }
+  .responsive-navbar-light.responsive-navbar   a.active{
+    color: black  !important;
+  }
+
+
+  .responsive-navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    opacity: .4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+
+  .responsive-navbar a:hover {
+    color: white;
+    opacity: unset;
+  }
+  
+  .responsive-navbar a.active {
+    color: white;
+    opacity: unset;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1300;
+  }
+
+  .content {
+    // padding: 2px;
+    display: flex; /* You can also use "display: grid;" for grid-based layouts */
+    flex-direction: column; /* Stack content vertically */
+    padding-top: 75px;
+    background-color: #f0ecec;
+  }
+  .content-dark {
+    background-color: #121212; /* Dark mode background */
+  }
+  
+  /* Additional adjustments for dark mode */
+  
+
+  .main-content {
+    flex: 1;
+    max-height: 100%;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+  .main-content-div {
+      height: 92%;
+  }
+  
+  .sticky + .content {
+    // padding-top: 60px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 35%;
+    right: 35%;
+    bottom: 1%;
+    width: 30%;
+    background-color: #3f3f40;
+    color: white;
+    text-align: center;
+    border-radius: 20px
+ }
+
+ .footer-content {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 15px
+ }
+
+ .footer-icon {
+  margin-left: 30px;
+ }
+
+ .text-white {
+  color: white;
+  font-weight: bold;
+ }
+
+ .text-grey {
+  color: white;
+  opacity: 0.5;
+ }
+
+
+  .header-box-title-responsive {
+    font-size: 2rem; /* 1rem is equal to the root font size */
+  }
+
+  .header-box-title-responsive-alarms {
+    font-size: 1.2rem; /* 1rem is equal to the root font size */
+  }
+
+  .padding-15px {
+    padding: 0px 10px 0px 10px !important;
+  }
+
+  .padding-20px {
+    padding: 10px 10px 0px 20px !important;
+  }
+
+  .h-donut-responsive {
+    display: flex;
+  }
+
+  .table-chart-responsive > td, th {
+    font: normal normal normal 15px Mulish !important;
+  }
+
+  .table-chart-responsive > tbody td {
+    font: normal normal normal 14px Mulish !important;
+  }
+
+  .chart-title-responsive {
+    font-family: 'Mulish';
+    letter-spacing: 0px;
+    color: #ffffff;
+    // opacity: 0.7;
+   // margin: 0;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+  }
+  
+  .chart-title-responsive-alarms {
+    font-family: 'Mulish';
+    letter-spacing: 0px;
+    color: #ffffff;
+    // opacity: 0.7;
+   // margin: 0;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+  }
+
+  .e-span-responsive {
+    font-size: 1.2rem;
+  }
+
+  .e-span-responsive-alarms {
+    font-family: 'Mulish';
+    letter-spacing: 0px;
+    font-size: 0.9rem;
+    color: #ff8200;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+  }
+  .refresh-button{
+        background-color: transparent;
+    border: none;
+
+  }
+  .tex{
+    font-size: 24px !important;
+  }
+  
+  @media (max-width: 640px) {
+    .header-box-title-responsive {
+      font-size: 1rem; /* Increase font size for screens wider than 768px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 0.6rem;
+    }
+    .card-value-responsive {
+      font-size: 0.6rem;
+    }
+    .card-value-date-responsive {
+      font-size: 0.6rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 0.5rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 0.5rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 0.5rem;
+    }
+    .chart-title-responsive {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive {
+      font-size: 0.9rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.6rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.7rem;
+    }
+    .legend-key-responsive {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 0.7rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.5rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.5rem !important;
+    }
+    .a-legend-key-responsive-alarms {
+      font-size: 0.5rem !important;
+    }
+    .a-legend-value-responsive-alarms {
+      font-size: 0.5rem !important;
+    }
+    .a-legend-key-responsive {
+      font-size: 0.8rem !important;
+    }
+    .a-legend-value-responsive {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 20px 0px 0px 25px !important;
+    }
+    .padding-20px {
+      padding: 20px 10px 0px 25px !important;
+    }
+    .footer-content {
+      gap: 5px;
+    }
+    .footer {
+      left: 10%;
+      right: 10%;
+      width: 80%;
+   }
+  }
+
+  @media (min-width: 641px) and (max-width: 800px) {
+    .header-box-title-responsive {
+      font-size: 1.3rem; /* Increase font size for screens wider than 768px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.3rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 0.7rem;
+    }
+    .card-value-responsive {
+      font-size: 0.7rem;
+    }
+    .card-value-date-responsive {
+      font-size: 0.7rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 0.7rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 0.7rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 0.7rem;
+    }
+    .chart-title-responsive {
+      font-size: 0.8em;
+    }
+    .e-span-responsive {
+      font-size: 1rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.7rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.6rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.6rem !important;
+    }
+    .a-legend-key-responsive-alarms {
+      font-size: 0.6rem !important;
+    }
+    .a-legend-value-responsive-alarms {
+      font-size: 0.6rem !important;
+    }
+    .padding-15px {
+      padding: 20px 0px 0px 25px !important;
+    }
+    .padding-20px {
+      padding: 20px 10px 0px 25px !important;
+    }
+    .a-legend-key-responsive {
+      font-size: 0.9rem !important;
+    }
+    .a-legend-value-responsive {
+      font-size: 0.9rem !important;
+    }
+    .w-chart-box-main-responsive {
+      margin: 5px !important;
+      width: 25% !important;
+    }
+    .footer-content {
+      gap: 8px;
+    }
+    .footer {
+      left: 20%;
+      right: 20%;
+      width: 60%;
+   }
+  }
+
+  @media (min-width: 641px) and (max-width: 800px) and (orientation: landscape) {
+    .w-chart-box-main-responsive {
+      margin: 5px !important;
+      width: 35% !important;
+    }
+  }
+
+  @media (min-width: 801px) and (max-width: 1024px) {
+    .header-box-title-responsive {
+      font-size: 1.7rem; /* Increase font size for screens wider than 768px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 0.9rem;
+    }
+    .card-value-responsive {
+      font-size: 0.9rem;
+    }
+    .card-value-date-responsive {
+      font-size: 0.9rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1.1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.7rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .legend-key-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 20px 0px 0px 25px !important;
+    }
+    .padding-20px {
+      padding: 15px 10px 0px 40px !important;
+    }
+    .w-chart-box-main-responsive {
+      margin: 5px !important;
+      width: 25% !important;
+    }
+    .content-zoom {
+      zoom: 1;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+    .footer-content {
+      gap: 10px;
+    }
+    .footer {
+      left: 25%;
+      right: 25%;
+      width: 50%;
+   }
+  }
+
+  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .w-chart-box-main-responsive {
+      margin: 5px !important;
+      width: 35% !important;
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1200px) and (orientation: portrait) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1.1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 0.8;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 1.14;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1400px) and (orientation: portrait) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 0.9rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 0.9;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1400px) and (orientation: landscape) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 1.08;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+
+  @media (min-width: 1401px) and (max-width: 1600px) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 1.24;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+
+  @media (min-width: 1601px) and (max-width: 1800px) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 1.49;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+
+  @media (min-width: 1801px) and (max-width: 2000px) {
+    .header-box-title-responsive {
+      font-size: 2rem; /* Increase font size for screens wider than 1024px */
+    }
+    .header-box-title-responsive-alarms {
+      font-size: 1.2rem; /* 1rem is equal to the root font size */
+    }
+    .card-key-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-responsive {
+      font-size: 1.2rem;
+    }
+    .card-value-date-responsive {
+      font-size: 1.2rem;
+    }
+    .card-key-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-responsive-alarms {
+      font-size: 1rem;
+    }
+    .card-value-date-responsive-alarms {
+      font-size: 1rem;
+    }
+    .chart-title-responsive {
+      font-size: 1rem;
+    }
+    .e-span-responsive {
+      font-size: 1.2rem;
+    }
+    .chart-title-responsive-alarms {
+      font-size: 0.8rem;
+    }
+    .e-span-responsive-alarms {
+      font-size: 0.9rem;
+    }
+    .legend-key-responsive {
+      font-size: 1rem !important;
+    }
+    .legend-value-responsive {
+      font-size: 1em !important;
+    }
+    .legend-key-responsive-alarms {
+      font-size: 0.7rem !important;
+    }
+    .legend-value-responsive-alarms {
+      font-size: 0.8rem !important;
+    }
+    .padding-15px {
+      padding: 0px 10px 0px 10px !important;
+    }
+    .padding-20px {
+      padding: 10px 10px 0px 20px !important;
+    }
+    .content-zoom {
+      zoom: 1.69;
+      -moz-transform: scale(1);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(1);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
+  }
+  
+
+  .logout-icon {
+    margin-left: auto;
+    margin-right: 20px;
+    gap: 20px;
+    display: flex;
+  }
+  /* Dark Mode Styles */
+.dark-navbar {
+  background-color: #2B2A2D; /* Dark mode background */
+}
+
+.dark-navbar a {
+  color: #f0f0f0; /* Light text for links */
+}
+
+.dark-navbar a:hover {
+  color: #fff; /* Hover state for links in dark mode */
+}
+
+.dark-navbar a.active {
+  color: #fff; /* Active link color in dark mode */
+}
+
+/* Other adjustments for dark mode */
+.dark-navbar .menu-item {
+  color: #f0f0f0; /* Menu item text color in dark mode */
+}
+
+.dark-navbar .submenu {
+  background-color: #444; /* Darker background for submenus */
+}
+
+.dark-navbar .submenu-item {
+  color: #f0f0f0; /* Light text for submenu items */
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76157" data-name="Rectangle 76157" width="72" height="72" fill="#f5efe1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_29012" data-name="Group 29012" opacity="0.998">
+    <g id="Group_28782" data-name="Group 28782" clip-path="url(#clip-path)">
+      <path id="Icon_ionic-ios-time" data-name="Icon ionic-ios-time" d="M35.493,3.375A32.118,32.118,0,1,0,67.611,35.493,32.113,32.113,0,0,0,35.493,3.375Zm2.162,34.9a2.168,2.168,0,0,1-2.162,2.162H20.669a2.162,2.162,0,1,1,0-4.324H33.331V15.728a2.162,2.162,0,0,1,4.324,0Z" transform="translate(0.507 0.508)" fill="#f5efe1"/>
+    </g>
+  </g>
+</svg>

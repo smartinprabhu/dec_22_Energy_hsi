@@ -1,0 +1,30 @@
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.top{
+  margin-top: -11px !important;
+}
+.gap{
+  display: flex;
+  gap: 10px;
+}
+.copy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.copy-icon1{
+  border: none;
+  background-color: #fffcfc;
+  cursor: pointer;
+}
+.img1{
+  width: 17px;
+}
+.copy-top{
+  margin-top: 0px !important;
+}

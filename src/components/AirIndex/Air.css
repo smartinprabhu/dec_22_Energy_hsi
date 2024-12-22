@@ -1,0 +1,127 @@
+.custom-plot-wrapper .plot-container {
+  background-color: #2A2A2A; 
+}
+
+.custom-plot-wrapper .plotly {
+  margin: 0; 
+  padding: 0;
+}
+.custom-gauge-wrapper .plot-container {
+  background-color: transparent; 
+  border: #161618;
+}
+
+.custom-gauge-wrapper .plotly {
+  margin: 0; 
+  padding: 0;
+}
+.custom-gauge-wrapper {
+margin-top: -8px; 
+}
+.gauge {
+color: #949495;
+}
+
+.container1{
+  display: flex;
+  padding: 14px;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: -24px;
+}
+.head{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.main-container1{
+  background-color: #161618;
+}
+.gauge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1{
+  display: flex;
+  flex-direction: row;
+  gap: 3.6vh;
+  background-color: #2a2a2a;
+  padding: 10px;
+}
+.card12{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.in{
+  background-color: #2a2a2a;
+  padding: 10px;
+}
+
+.temp-label{
+  color: #949495;;
+  display: flex;
+  justify-content: space-between;
+  font-family: mulish;
+}
+.temp-value{
+  color: #949495; 
+  font-family: mulish;
+}
+.top1{
+  color: white;
+  margin-top: -3px;
+  margin-bottom: 2px;
+  font-size: 32px;
+  font-family: mulish;
+}
+.pm-value {
+  font-size: 40px;
+  color:white
+}
+
+.pm-unit {
+  font-size: 25px;
+  color:white
+
+}
+
+.img2{
+  height: 44px;
+}
+.temp{
+  margin-top: -5px;
+}
+.img2 {
+  color: #949495;}
+.mid{
+display: flex;
+justify-content: space-around;
+color: white;
+margin-left: 9.07vh;
+margin-top: -30px;
+
+}
+.city{
+display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  color: #949495;
+  margin-top: -23px;
+  font-size: 12px;
+}
+.icon-color {
+filter: invert(52%) sepia(1%) saturate(0%) hue-rotate(176deg) brightness(90%) contrast(86%);
+}
+.title{
+  font-size: 30px;
+}
+.tempimg{
+  height: 90px;
+}
+.met{
+  background-color: black !important;
+}

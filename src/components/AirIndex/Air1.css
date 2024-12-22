@@ -1,0 +1,39 @@
+.cardgrid{
+    background: #2a2a2a;
+    opacity: 0.8;
+}
+.dis{
+    display: flex;
+    gap: 20px;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.refr{
+    size: 10px;
+    height: 15px;
+    color: #949495;
+    filter: brightness(0) saturate(100%) invert(43%) sepia(1%) saturate(7%) hue-rotate(180deg) brightness(94%) contrast(89%);
+}
+.temp-label{
+    color: #949495;;
+    display: flex;
+    justify-content: space-between;
+    font-family: mulish;
+    margin-top: 30px;
+  }
+.temp-value1{
+    color: #949495;;
+
+    font-family: mulish;
+    margin-top: -15px;
+  }
+.top1{
+
+    margin-top: -10px;
+}
+.icon-color{
+    margin-top: -10px;
+}

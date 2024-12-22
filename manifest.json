@@ -1,0 +1,73 @@
+{
+  "short_name": "NOC",
+  "name": "Helixsense NOC",
+  "icons": [
+	{
+      "src": "/images/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16",
+      "purpose": "any"
+    },
+	  {
+      "src": "/images/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/android-icon-36x36.png",
+      "type": "image/png",
+      "sizes": "36x36",
+      "density": "0.75",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/android-icon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "density": "1.0",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/android-icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "density": "1.5",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/android-icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "density": "2.0",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/android-icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "density": "3.0",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "density": "4.0",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/android-icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "density": "5.0",
+      "purpose": "maskable"
+    }
+  ],
+   "scope": "/",
+   "start_url": "/index.html",
+   "display": "standalone",
+   "theme_color": "#000000",
+   "background_color": "#ffffff",
+   "prefer_related_applications": false
+}

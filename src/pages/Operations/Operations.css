@@ -1,0 +1,16 @@
+/* .operations-box {
+  position: relative;
+} */
+
+.currentdate-container{
+  position: absolute !important;
+  top:470 !important;
+  background-color: white;
+}
+
+.currentDate{
+margin-left: 20px;
+}
+.hidden {
+  display: none;
+}

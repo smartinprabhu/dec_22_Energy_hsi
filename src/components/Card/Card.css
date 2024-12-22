@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  height: 32vh;
+  background: transparent linear-gradient(180deg, #242328 0%, #3e3e3e 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  /* background-color: green; */
+  opacity: 0.8;
+  border-radius: 15px;
+  /* padding: 10px; */
+  /* margin: 0.4%; */
+}
+
+.card-extand {
+  height: 65.5vh;
+}
+
+.card-responsive {
+  width: 100%;
+  height: 100%;
+  /* background: transparent linear-gradient(180deg, #242328 0%, #3e3e3e 100%) 0%
+    0% no-repeat padding-box; */
+  box-shadow: 0px 3px 6px #00000029;
+  /* background-color: green; */
+  opacity: 0.8;
+  border-radius: 15px;
+  /* padding: 10px; */
+  /* margin: 0.4%; */
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.card-extand-responsive {
+  height: 100%;
+}

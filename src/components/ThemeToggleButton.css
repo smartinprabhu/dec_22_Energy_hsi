@@ -1,0 +1,80 @@
+.theme-toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 25px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #ffd700 0%, #1e3a8a 100%);
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle-button:hover {
+  opacity: 0.9;
+}
+
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-icon img {
+  width: 14px;
+  height: 14px;
+}
+
+.toggle-icon.light {
+  transform: translateX(25px);
+}
+
+.toggle-icon.dark {
+  transform: translateX(0);
+}
+.theme-toggle-button {
+  width: 40px; /* Reduced from 50px */
+  height: 20px; /* Reduced from 25px */
+  border-radius: 10px; /* Adjusted for the smaller button */
+  background: linear-gradient(90deg, #ffd700 0%, #1e3a8a 100%);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Slightly smaller shadow */
+  transition: background 0.3s ease;
+}
+
+.toggle-icon {
+  width: 15px; /* Reduced from 20px */
+  height: 15px; /* Reduced from 20px */
+  top: 2.5px; /* Adjusted to match the new height */
+  left: 2.5px; /* Adjusted to match the new width */
+  border-radius: 50%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3); /* Slightly smaller shadow */
+}
+
+.toggle-icon img {
+  width: 10px; /* Reduced from 14px */
+  height: 10px; /* Reduced from 14px */
+}
+
+.toggle-icon.light {
+  transform: translateX(20px); /* Adjusted for the smaller button */
+}
+
+.toggle-icon.dark {
+  transform: translateX(0);
+}
